@@ -20,7 +20,7 @@
             gasolina = gasolina * 0.7;
             msg = "Marca: " + txtMarca.Text + " - " + "Modelo: " + txtModelo.Text + " - ";
 
-            if (etanol <= gasolina)
+            if (etanol >= gasolina)
             {
                 msg = msg + "Usa gasolina!";
             }
